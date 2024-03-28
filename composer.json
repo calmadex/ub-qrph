@@ -1,6 +1,7 @@
 {
     "name": "ezi/ub-qrph",
     "description": "UB QRPH - Integration",
+    "license": "MIT",
     "require": {
         "illuminate/support": "*",
         "php": "^8.0|^8.1|^8.2",
