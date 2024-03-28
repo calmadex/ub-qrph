@@ -1,0 +1,10 @@
+{
+    "token_type": "Bearer",
+    "access_token": "token",
+    "metadata": "metadata",
+    "expires_in": 0,
+    "consented_on": 0,
+    "scope": "qrph_instapay",
+    "refresh_token": "refresh-token",
+    "refresh_token_expires_in": 0
+}

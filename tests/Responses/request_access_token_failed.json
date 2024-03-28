@@ -1,0 +1,14 @@
+{
+  "errors": [
+    {
+      "code": -1,
+      "description": "Missing/Invalid Parameters.",
+      "details": [
+        {
+          "field": "mobileNumber",
+          "message": "mobileNumber you entered has invalid character(s)"
+        }
+      ]
+    }
+  ]
+}

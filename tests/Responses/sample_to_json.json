@@ -1,0 +1,1 @@
+{"errorCode":400,"errorBody":{"errors":[{"code":-1,"description":"Missing\/Invalid Parameters.","details":[{"field":"page","message":"page you entered has invalid character(s)"}]}]},"requestName":"Get Settlement Data"}

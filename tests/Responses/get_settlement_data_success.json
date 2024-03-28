@@ -1,0 +1,37 @@
+{
+  "code": "TS",
+  "state": "Successfully processed request",
+  "uuid": "eff22cbe-be6d-45df-b341-367ebaf2e91d",
+  "currentPage": 1,
+  "nextPage": null,
+  "previousPage": null,
+  "totalPages": 1,
+  "totalRecord": 1,
+  "data": [
+    {
+      "id": 161,
+      "billerId": 2942,
+      "code": "3853",
+      "name": "Merchant Acquiring Test Biller",
+      "storeId": 1061,
+      "branchName": "sampleqrqr",
+      "cashierCode": "asdasda",
+      "referenceNo": "012232215595957001",
+      "grossAmount": 500,
+      "transactionfee": 0,
+      "percentageFee": 0,
+      "amountSettled": 500,
+      "transactionId": "7738530123221559001",
+      "paymentMethod": "INSTAPAY P2M",
+      "status": "PAID",
+      "settlementStatus": "POSTED",
+      "ubTranId": "UB17473",
+      "transactionDate": "2022-11-18T07:59:57Z",
+      "settlementProcessDate": "2022-11-18T08:00:07Z",
+      "settledDate": "2022-11-18T08:00:07Z",
+      "traceNo": "111111",
+      "senderReferenceNo": "Number",
+      "merchantType": "NON-MSME"
+    }
+  ]
+}

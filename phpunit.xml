@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+>
+    <coverage cacheDirectory=".phpunit.cache/code-coverage"
+              processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">./src/</directory>
+        </include>
+    </coverage>
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <directory suffix="Test.php">./tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="QUEUE_CONNECTION" value="sync"/>
+        <env name="DB_DATABASE" value=":memory:"/>
+        <env name="DB_CONNECTION" value="sqlite"/>
+        <env name="QRPH_BASE_URL" value="https://api-uat.unionbankph.com"/>
+        <env name="QRPH_USERNAME" value="partner_sb"/>
+        <env name="QRPH_PASSWORD" value="p@ssw0rd"/>
+        <env name="QRPH_PARTNER_ID" value="merchant.7000000055"/>
+        <env name="QRPH_CLIENT_ID" value="32d25bc1-f93f-4468-883e-26cfc0c1bcc5"/>
+        <env name="QRPH_CLIENT_SECRET" value="hH6jO6pQ7rX5iN7pX8tW5wN3uU7pW5iD1wO1rE8gO8pH3nH8bG"/>
+    </php>
+</phpunit>
