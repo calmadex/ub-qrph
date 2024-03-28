@@ -9,6 +9,9 @@
 ### Sample Usage
 
 ```
+use Ezi\UbQrPh\Exceptions\RequestFailedException;
+use Ezi\UbQrPh\QrPhClient;
+
 $service = new QrPhClient(config('ub-qrph'));
 $service->requestAccessToken();
 ```
@@ -31,6 +34,9 @@ array:8 [
 ### Sample Usage
 
 ```
+use Ezi\UbQrPh\Exceptions\RequestFailedException;
+use Ezi\UbQrPh\QrPhClient;
+
 $service = new QrPhClient(config('ub-qrph'));
 try {
     $qrResponse = $service->generateInstapayQrString(
@@ -64,6 +70,9 @@ array:4 [
 ### Sample Usage
 
 ```
+use Ezi\UbQrPh\Exceptions\RequestFailedException;
+use Ezi\UbQrPh\QrPhClient;
+
 $service = new QrPhClient(config('ub-qrph'));
 try {
     $response = $service->getSettlementData(
