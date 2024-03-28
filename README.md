@@ -95,10 +95,41 @@ try {
 ### Sample Response
 
 ```
-array:4 [
+array:9 [
   "code" => "TS"
   "state" => "Successfully processed request"
-  "uuid" => "29d16b86-a482-469d-8cc8-46424a5131b9"
-  "response" => "[qrIdentifier:7103,qrString:00020101021128720011ph.ppmi.p2m0111UBPHPHMMXXX0308999179100419773853011023024339005030105204601653036085802PH5916Merchant Acq-123600312362410012ph.ppmi.qrph0304710305062110000803***80310012ph.ppmi.qrph01031230204710388300012ph.ppmi.qrph0110970941393963045967]"
+  "uuid" => "eff22cbe-be6d-45df-b341-367ebaf2e91d"
+  "currentPage" => 1
+  "nextPage" => null
+  "previousPage" => null
+  "totalPages" => 1
+  "totalRecord" => 1
+  "data" => array:1 [
+    0 => array:23 [
+      "id" => 161
+      "billerId" => 2942
+      "code" => "3853"
+      "name" => "Merchant Acquiring Test Biller"
+      "storeId" => 1061
+      "branchName" => "sampleqrqr"
+      "cashierCode" => "asdasda"
+      "referenceNo" => "012232215595957001"
+      "grossAmount" => 500
+      "transactionfee" => 0
+      "percentageFee" => 0
+      "amountSettled" => 500
+      "transactionId" => "7738530123221559001"
+      "paymentMethod" => "INSTAPAY P2M"
+      "status" => "PAID"
+      "settlementStatus" => "POSTED"
+      "ubTranId" => "UB17473"
+      "transactionDate" => "2022-11-18T07:59:57Z"
+      "settlementProcessDate" => "2022-11-18T08:00:07Z"
+      "settledDate" => "2022-11-18T08:00:07Z"
+      "traceNo" => "111111"
+      "senderReferenceNo" => "Number"
+      "merchantType" => "NON-MSME"
+    ]
+  ]
 ]
 ```
